@@ -578,3 +578,18 @@
 .jus{
     text-align: justify !important;
 }
+
+.rot{
+    animation: an 12s infinite linear;
+}
+@keyframes an{
+     0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+.about_inner{
+    perspective: 700px;
+}
